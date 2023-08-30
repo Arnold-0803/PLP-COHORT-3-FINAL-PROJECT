@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.arnoldkells.inc.com</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&family=Nunito:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&family=Rubik+Marker+Hatch&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- <h2>ArnoldKiritu Inc.</h2> -->
+        <!-- <nav id="navigation-bar">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button class="logout" type="button">LogOut</button>
+        </nav> -->
+    </header>
+
+    <section class="wrapper" id="wrapper">
+        <div class="form-box login">
+            <h2>Log In</h2>
+            <form id="form-login" action="#">
+                <div class="input-box">
+                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                    <input class="login-email" type="email" required>
+                    <label>E-Mail</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="login-password" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="show-remember">
+                    <label><input type="checkbox">Show password</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button class="login-button" type="submit">LogIn</button>
+                <div class="create-account">
+                    <p>Don't have account? <a class="signup-link" href="#">Signup</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box signup">
+            <h2>Sign Up</h2>
+            <form id="form-signup" action="#">
+                <div class="input-box">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                    <input class="user-name" type="text" required>
+                    <label>userName</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                    <input class="user-email" type="email" required>
+                    <label>E-Mail</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="user-password" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="show-remember">
+                    <label><input type="checkbox">Accept to the terms and conditions</label>
+                    <a href="#">Read terms</a>
+                </div>
+                <button class="signup-button" type="submit">SignUp</button>
+                <div class="create-account">
+                    <p>Already have an account? <a class="login-link" href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <foot class="soscial-media">
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </foot>
+        <foot class="copyright">
+            © Copyright 2023 by ArnoldKiritu Inc. All rights reserved.
+        </foot>
+    </section>
+
+    <script src="arnoldScripts.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
